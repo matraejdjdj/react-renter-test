@@ -5,13 +5,11 @@ import * as ReactDOMNew from 'react-dom/client';
 import * as ReactDOMOld from "react-dom";
 
 function App() {
-
 	new Set([1, 2]);
 	new Map([['a', 1]]);
-
 	return (
-		<>
-			<h1>Hello from react!</h1>
+		<> 
+		<h1>Hello from react!</h1> 
 		</>
 	);
 }
@@ -25,7 +23,6 @@ const body = document.getElementsByTagName('body')[0];
  * The second Render function fails in IE10.
  *
  * Comment/uncomment each function to test the difference between them
- *
  */
 
 ReactDOMOld.render(<App/>, body); // -------------------> WORKING
