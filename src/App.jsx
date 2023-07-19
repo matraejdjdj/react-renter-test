@@ -28,6 +28,5 @@ const body = document.getElementsByTagName('body')[0];
  *
  */
 
-ReactDOMOld.render(<App/>, body);					// Working
-
-//ReactDOMNew.createRoot(body).render(<App/>);		// NOT working
+ReactDOMOld.render(<App/>, body); // -------------------> WORKING
+//ReactDOMNew.createRoot(body).render(<App/>); // ---------------> NOT WORKING
