@@ -3,6 +3,11 @@
 Test project for demonstration the difference between ReactDOM.render and ReactDomClient.createRoot
 for IE10.
 
+Use:
+```sh
+Node version: v20.4.0
+```
+
 ===================
 ## Installation
 
@@ -19,6 +24,8 @@ npm i
 ```sh
 npm run dev
 ```
+
+4. Open ./dist/index.html file in IE10.
 
 
 The project conatins just one file with the absolute minimum code for running a react application.
