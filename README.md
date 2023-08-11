@@ -1,4 +1,4 @@
-# react-renter-test
+# react-render-test
 
 Test project for demonstration the difference between ReactDOM.render and ReactDomClient.createRoot
 for IE10.
